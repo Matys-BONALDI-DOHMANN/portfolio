@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+nav{
+	margin-top:1rem;
+	margin-bottom:1rem;
+}
+
+nav p{
+	font-size:11px;
+	padding-left:2px;
+}
+nav a img{
+	max-width:5%;
+	padding-left:1rem;
+	position:relative;
+	top:2rem;
+}
+
+nav a.lien{
+	text-decoration : none;
+	display : inline-block;
+	width : 21%;
+	text-align : center;
+	margin : 0 5% 2rem 5%;
+	color:black;
+	border: solid #00deff 1px	;
+	border-radius : 1rem;
+	font-weight : bold;
+	font-size : 1.6rem;
+
+}
+
+@media (max-width: 1200px){
+	main form input{
+		width:20%;
+	}
+	
+	main form label{
+		width:20%;
+	}
+}@media (max-width: 1200px){
+	nav a.lien {
+		width:20%;
+	}
+
+}
