@@ -1,19 +1,32 @@
 @charset "utf-8";
 
 
-main iframe{
-	margin:auto;
-	display:block;
-	padding:2rem;
-}
-
-header p{
-	color:white;
-}
-
 aside p {
-	text-align:center;
-	margin:1rem;
-	padding-top:1rem;
 	padding-bottom:1rem;
+}
+
+main img {
+	height: 18rem;
+}
+
+aside ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+}
+
+.liste{
+	padding-bottom: 1rem;
+}
+
+#images-projets{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	row-gap : 2.5rem;
+}
+
+nav div#lien-navigation{
+	margin-top: -3em;
 }

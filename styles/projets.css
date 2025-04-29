@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+aside p {
+	font-size: 18pt;
+}
+
+main p.description {
+	padding-bottom: 1.5rem;
+	font-size: 14pt;
+}
+
+main h3{
+	margin-top: 3rem;
+}
+
+main img,main video{
+	display: block;
+	margin: auto;
+	max-width: 60%;
+	margin-bottom: 1rem;
+}

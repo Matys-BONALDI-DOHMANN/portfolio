@@ -2,90 +2,62 @@
 
 *{
 	margin:0;
-	padding: 0;}
+	padding: 0;
+}
 
 body{
-	background-color:#3a3c3e;
-	font-family: "Open Sans";
+	background-color:black;
+	font-family: "Aldrich";
+	color: white;
 }
 
-body h1,body h2{
-	font-family: "Protest Revolution";
+body h1,body h2,body h3{
+	font-family: "Orbitron";
+	color : white;
 }
 
-header h1{
-	font-size:5rem;
-	margin-top:2rem;
-	margin-bottom:2rem;
+h1{
+	font-size:4rem;
+	margin: 1rem 0 2rem 0;
 	text-align: center;
-	display:flex;
-	align-items:center;
-	justify-content:center;
 }
-
-header h1 img{
-	max-width:11%;
-	padding-left:1rem;
-}
-
-header p{
-	border: solid #00deff 3px;
-	font-size:2.5rem;
-	color:white;
-	text-align:center;
-	margin:2rem;
-	padding:2rem;
-	background-image:url("./../images/fond-texte-accueil.jpeg");
-				
-}
-
-body nav p{
-	margin-left:2px;
-}
-
+		
 h2{
 	font-size:3rem;
 	margin-top:2rem;
 	margin-bottom:2.5rem;
 	text-align: center;
+	padding-bottom: 1.5rem;
 }
 
-body p{
-	color:#00deff;
-	margin-left:1rem;
+h3{
+	font-size:2.3rem;
+	margin: 2rem 0 2rem 0;
+	text-align: center;
 }
 
-footer{
-	border-top: solid 1px #00deff;
-	padding:3rem;
-	margin-top:3rem;
-	display:flex;
-	justify-content:center;
-	}
-	
-	
-footer img {
-	max-width:15%;
+p{
+	text-align: center;
+	padding-right: 1rem;
+	padding-left: 1rem;
 }
 
-footer a,footer p{
-	color:#00deff;
-	width:53%;
-	padding-top:1rem;
+a{
+	color : white;
 }
 
 
 @font-face {
-	font-family: "Open Sans";
+	font-family: "Aldrich";
 	src : 
-		local ("Open Sans"),
-		url("./../polices/Open_Sans/static/OpenSans-Regular.ttf") ;
+		local "Aldrich",
+		url("./../polices/Aldrich/Aldrich-Regular.ttf") ;
 }
 	
 @font-face{	
-	font-family: "Protest Revolution";
+	font-family: "Orbitron";
 	src : 
-		local ("Protest Revolution"),
-		url("./../polices/Protest_Revolution/ProtestRevolution-Regular.ttf") ;	
+		local "Oribtron",
+		url("./../polices/Orbitron/static/Orbitron-Regular.ttf") ;	
 }		
 

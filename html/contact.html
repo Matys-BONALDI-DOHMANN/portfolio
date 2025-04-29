@@ -5,37 +5,51 @@
 			<link rel="stylesheet" href="./../styles/general.css">
 			<link rel="stylesheet" href="./../styles/nav.css">
 			<link rel="stylesheet" href="./../styles/contact.css">
-			<title>Contact</title>
-			<link rel="shortcut icon" type="image/jpg" href="./../images/logo-site.png"/>
+			<title>Me contacter</title>
+			<link rel="shortcut icon" type="image/jpg" href="./../images/img.jpg"/>
 		</head>
 		<body>
 			<header>
-				<h1>Me Contacter</h1>
+				<h2>Me Contacter</h2>
 			</header>
 			
 			<nav>
-				<a class="lien" href="./accueil.html">Accueil</a>
-				<a class="lien" href="./destinations.html">Mes Projets</a>
-				<a class="lien" href="./contact.html" class="ici">Me Contacter</a>
+				<img src="./../images/menu_hamburger.jpg" alt="Menu de navigation" id="menu-navigation">
+				<div id="lien-navigation">
+						<a class="lien" href="./accueil.html" class="ici" >Accueil</a>
+						<a class="lien" href="./projets.html">Mes Projets</a>
+						<a class="lien" href="./contact.html">Me contacter</a>
+				</div>
 			</nav>
 		
 			<main>
 
-					<h2>Me joindre</h2>
-					<p>Linkedin : </p>
+					<h3>Informations de contact</h3>
+					<a href="https://www.linkedin.com/in/matys-bonaldi-dohmann">Linkedin</a>
 					<p>Mail : matys.bdohmann@gmail.com</p>
 				
-					<h2>Ou directement en remplissant ce formulaire</h2>
-					
-					<form>
-						<label for="mail">Votre adresse e-mail :</label>
-						<input id="mail" type="mail" placeholder="example@gmail.com" required=yes>
-						
-						<label for="message">Votre message :</label>
-						<input id="message" type="text" placeholder="Message">
-						
-						<input type="submit" value="Envoyer"/>
-					</form>
+					<div id="formulaire">
+						<h3>Ou directement en remplissant ce formulaire</h3>
+						<form>
+							<label for="mail">Votre adresse e-mail :</label>
+							<input id="mail" type="mail" placeholder="example@gmail.com" required=yes pattern="[a-Z]\+@[a-z]\+\.[a-z]\+">
+							
+							<label for="message">Votre message :</label>
+							<input id="message" type="text" placeholder="Message" required=yes>
+							
+							<input type="submit" value="Envoyer"/>
+						</form>
+					</div>
 			</main>
 		</body>
+
+			<script>
+			    const menuHamburger = document.querySelector("#menu-navigation")
+			    const navLinks = document.querySelector("#lien-navigation")
+			 
+			    menuHamburger.addEventListener('click',()=>{
+			    navLinks.classList.toggle('mobile-menu')
+			  	})
+			</script>
+		
 	</html>

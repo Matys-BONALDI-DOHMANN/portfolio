@@ -1,20 +1,20 @@
 @charset "utf-8";
 
-
-main h2{
-	margin:3rem;
-}
-
-main iframe{
-	margin:auto;
-	display:block;
-	padding:2rem;
-}
-
 main p{	
 	text-align:center;
 	margin-bottom:1rem;
 	font-size:1.7rem;
+}
+
+main a{
+	display: flex;
+	justify-content: center;
+	font-size:1.7rem;
+	margin : 1rem 0 1rem 0;
+}
+
+div#formulaire{
+	margin-top: 3rem;
 }
 
 main form label, main form input{
@@ -25,7 +25,7 @@ main form label, main form input{
 main form label{
 	display:inline-block;
 	width:20%;
-	color:#00deff;
+	color:white;
 }
 
 main form input{
@@ -39,23 +39,9 @@ main form input[type=submit]{
 	margin-top:3rem;
 }
 
-main form#contact input[type=text]{
-	padding-bottom:10rem;
+#message{
+	padding-bottom: 3rem;
 }
-
-main form#contact div#aligne label{
-	margin-left:0;
-	width:10%;
-}
-
-main form#contact div#aligne input{
-	width:1%;
-}
-
-main form#contact div#aligne {
-	margin-left:10rem;
-}
-
 
 @media (max-width: 1200px){
 	main form input{
