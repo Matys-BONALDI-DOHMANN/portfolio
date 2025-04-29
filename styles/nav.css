@@ -1,31 +1,16 @@
 @charset "utf-8";
 
-nav img{
-	position: fixed;
-	left : 20px ;
-	top : 20px;
-	max-width:3.5%;
-	margin-left : 0;
-}
-
 nav a{
 	text-decoration: none;
+	border-bottom : solid white 2px;
 	font-size: 20pt;
 	margin-left: 3%;
 }
 
-nav div#lien-navigation{
-	position: fixed;
-	margin-left : -100%;
-	margin-top: -5em;
-	width: 13%;
-	display : flex;
-	flex-direction: column;
-	transition: all 0.4s ease;
-	background-color: black;
-	padding : 1rem 0 1rem 0;
-}
 
-nav #lien-navigation.mobile-menu{
-	margin-left: 0;
+
+nav {
+	margin : 2rem 0 2rem 0;
+	display : flex;
+	justify-content : center;
 }
