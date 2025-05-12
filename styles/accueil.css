@@ -19,3 +19,33 @@ header img{
 main p{
 	margin : 0 5rem 0 5rem;
 }
+
+aside h2{
+	margin-top: 3rem;
+}
+
+aside iframe {
+	display : block;
+	margin : auto;
+	margin-top : 1rem;
+}
+
+main img {
+	height:22pt;
+	margin-right : 1rem;
+}
+
+.fond{
+	background-color : white;
+}
+
+.icone{
+	margin : 1rem 0 1rem 0rem;
+}
+
+.illustration{
+	background-color : white;
+	height:16pt;
+}
+
+	
