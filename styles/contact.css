@@ -9,6 +9,11 @@ main p{
 	font-size:1.7rem;
 }
 
+a img{
+	height : 2.1rem;
+	margin-right:0.5rem;
+}
+
 main a{
 	display: flex;
 	justify-content: center;
